@@ -1,6 +1,15 @@
 
 #### notes
-* text analysis and statistics
+
+#### 2022-03-22  
+* language context  
+
+* text analysis and statistics  
+    - Tokenization -> Part-of-speech tagging -> Parsing  
+    - others
+        + personalized learning like e-learning platform  
+        +  correct exercise  errors / generation 
+        +  intelligent student profiling  
 
 
 * what we can do  
