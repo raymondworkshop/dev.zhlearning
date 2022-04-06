@@ -1,5 +1,36 @@
 
-#### notes
+#### notes  
+
+
+#### 2022-04-06  
+* TODO  
+    - 2.3  
+
+    - clarify the resources  
+
+* NLP for traditional Chinese texts  
+    - jieba  
+        + Tokenization  
+    - CkipTagger  
+    Chinese word segmentation, 
+    named entity recognition, 
+    POS for tradition Chinese 
+
+    -  Chinese BERT 
+        + Chinese-BERT-wwm 
+
+
+* sharings  
+    - a parkage or toolkit 
+    - SpaCy  
+
+    - personalized learning, exercise generation, intelligent student profiling  
+        + details from the requirements 
+    then how to achieve that, and get some new findings from that  
+
+    - 6-month contract  
+
+
 
 #### 2022-03-22  
 * language context  
