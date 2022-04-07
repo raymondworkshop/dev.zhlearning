@@ -2,9 +2,33 @@
 #### notes  
 
 
+#### 2022-04-07  
+* A engine in smart learning  
+    
+    - source 
+        + **扫描的所有文章**  
+
+    - 语文知识重点分类  Codex  
+        + 标注  哪些词组和句式  
+        + 怎么知道 是哪个 division 
+        + **是否已经有了 手工标注的 语料**  
+
+    - Q2.3 
+        + 歧义  ambiguity
+            - 语法 - 词在句子里的位置和作用 - depentency parsing  
+            - 语义 - context 
+
+        + 段落 和 篇章 
+            - 定义  paragraph, discourse  
+            - 片段之间的联结词？  或者 **可以提供什么协助**  
+        
+        + 根据成分  筛选  
+            - select * based on the structure 
+         
+
 #### 2022-04-06  
 * TODO  
-    - 2.3  
+    - Q2.3  
 
     - clarify the resources  
 
