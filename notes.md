@@ -24,6 +24,9 @@
         
         + 根据成分  筛选  
             - select * based on the structure 
+
+* tech  
+    - tokenization（+ 手工规则） + bag of words 
          
 
 #### 2022-04-06  
