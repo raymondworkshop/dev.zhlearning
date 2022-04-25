@@ -3,7 +3,22 @@
 
 #### 2022-04-08 
 * confirm the questions with examples 
-    - TODO  
+    - codex 分层记录方法   
+        + 是否 已经 扫描 （sou3 miu4）文章 (man4 zoeng1)  
+            - 已经 手工 (sau2 gung1) 标注的 文章   
+
+        + p4 - 小灰马嗒嗒 （siu2 fui1 maa5 taap3 taap3） 
+            - 标注了 “無不”(mou4 bat1)， “棕色” (zung1 sik1)， “灰濛濛” (fui1 mung4 mung4)  
+        要標註（biu1 zu3) 哪些 詞组 （ci4 zou2）/ 句子  (geoi3 zi2)    
+            - "家人" (gaa1 jan4)  "例外" (lai6 ngoi6)  
+
+        + 怎么知道 division 
+            - “灰濛濛” (fui1 mung4 mung4)  
+            - 詞:詞性:着色詞 (zoek6 sik1):ABB 式    
+
+    - Q2.3   
+        + 定义  paragraph, discourse  
+
 
 #### 2022-04-07  
 * A engine in smart learning  
