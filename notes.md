@@ -1,6 +1,22 @@
 
 #### notes  
 
+#### 2022-04-26
+* data  
+    - 扫描的文章  
+    - 附件1 〈小學中文科常用字表〉  
+    - 不同主题的字词表    
+
+* Text Analysis  
+    - tokenization + bag-of-words  
+    - TF-IDF 
+
+* questions  
+    - 2.2 常用度？  字詞分佈百分率 -> 文章难度？  
+    - 2.5  文章**主题或文体**？  
+        + 不同主题的字词表？  
+    - 2.6  语文知识 -> **文章难度的定义**？ 
+
 #### 2022-04-08 
 * confirm the questions with examples 
     - codex 分层记录方法   
