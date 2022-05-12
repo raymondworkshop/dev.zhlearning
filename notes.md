@@ -1,6 +1,51 @@
 
 #### notes  
 
+#### 2022-05-12  
+* Object     
+    - 评定语文篇章中的潜在**语文知识和主题**， 以此来测量语文课本**篇章难度等级**  
+
+    - 文库 - dataset  
+        + 扫描的文章  ?     -NO 
+        + 附件1 〈小學中文科常用字表〉  - OK 
+        + 不同主题的字词表     - Can't access online  
+        
+    - 分析篇章内容  - Text Analysis  
+        + 语文知识，主题， 难度等级  
+
+* Functions in the engine 
+    - This is an Engine not an online platform now  
+    - 字的统计 
+        + 2.2  常用度？  字詞分佈百分率 -> 文章难度(1-6)？  - How 
+        
+    - 词的统计  
+        +  tokenization + bag-of-words 
+        +  2.5  字词表和字体频率 -> 文章**主题或文体**？  - HOW   
+            - **不同主题的字词表** - DATA 
+            - 上载者提供  
+ 
+    - 句的统计   
+        + 语文知识： 句式，复句，标点符号和部分修辞   
+        + 文章體裁 (under 篇in their hierarchy) such as  記敘文、描寫文、抒情文 etc  
+            - 3 文本的分析  
+        + 语文知识的分布 ->  文章难度？  - 　HOW  
+
+        + design a combination of rule-based using phrase statistics as well as machine learning 
+
+* Tech stack  
+    - jieba Chinese text segmentation  
+    - CKIP Neural Chinese Word Segmentation, POS Tagging, and NER
+        + 简繁体转换  
+    - PERT: Pre-training BERT with Permuted Language Model  
+    - python 
+
+* TODO  
+    - help prepare the proposal with the guidance  
+        + examples ?
+
+
+
+
 #### 2022-04-26
 * data  
     - 扫描的文章  
