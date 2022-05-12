@@ -33,7 +33,7 @@
         + design a combination of rule-based using phrase statistics as well as machine learning 
 
 * Tech stack  
-    - jieba Chinese text segmentation  
+    - spaCy v3, jieba with user dictionary  
     - CKIP Neural Chinese Word Segmentation, POS Tagging, and NER
         + 简繁体转换  
     - PERT: Pre-training BERT with Permuted Language Model  
@@ -41,9 +41,11 @@
 
 * TODO  
     - help prepare the proposal with the guidance  
-        + examples ?
+        + reference/examples ?  
 
-
+* reference 
+    - [ENC2045 Computational Linguistics](https://alvinntnu.github.io/NTNU_ENC2045_LECTURES/nlp/chinese-word-seg.html)
+    - [2021-02-16-Adding a custom tokenizer to spaCy and extracting keywords.ipynb](https://colab.research.google.com/github/howard-haowen/blog.ai/blob/master/_notebooks/2021-02-16-Adding-a-custom-tokenizer-to-spaCy-and-extracting-keywords.ipynb#scrollTo=DeU-wUIk0iIk) 
 
 
 #### 2022-04-26
