@@ -1,6 +1,14 @@
 
 #### notes  
 
+#### 2022-05-17  
+* Think big  
+
+
+* reference 
+    - [Practices of the Python Pro](https://www.manning.com/books/practices-of-the-python-pro)  
+    - [Software Engineering With Python]  
+
 #### 2022-05-12  
 * Object     
     - 评定语文篇章中的潜在**语文知识和主题**， 以此来测量语文课本**篇章难度等级**  
@@ -41,7 +49,7 @@
 
 * TODO  
     - help prepare the proposal with the guidance  
-        + reference/examples ?  
+        + reference/examples   
 
 * reference 
     - [ENC2045 Computational Linguistics](https://alvinntnu.github.io/NTNU_ENC2045_LECTURES/nlp/chinese-word-seg.html)
