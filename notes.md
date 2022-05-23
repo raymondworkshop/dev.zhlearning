@@ -1,6 +1,12 @@
 
 #### notes  
 
+#### 2022-05-23  
+* experiments  
+    -  
+
+    
+
 #### 2022-05-19    
 * handle traditional Chinese texts  
     - TOCHECK  
@@ -9,9 +15,7 @@
     - Chinese Grammar Intelligence (大雅語文智能)
 
 
-
 * write the proposal  
-
 
 
 #### 2022-05-17  
