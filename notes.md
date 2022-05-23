@@ -3,14 +3,11 @@
 
 #### 2022-05-23  
 * experiments  
-    -  get the module zh_core_web_sm 
-
 
 
 #### 2022-05-19    
 * handle traditional Chinese texts  
-    - TOCHECK  
-        + Integration of CKIP Transformers with spaCy and the TextRank algorithm for traditional Chinese  
+    - add a custom tokenizer in spaCy for traditional Chinese  
 
     - Chinese Grammar Intelligence (大雅語文智能)
 
@@ -25,6 +22,7 @@
 * reference 
     - [Practices of the Python Pro](https://www.manning.com/books/practices-of-the-python-pro)  
     - [Software Engineering With Python]  
+    - [A custom tokenizer to spaCy](https://howard-haowen.rohan.tw/blog.ai/keyword-extraction/spacy/textacy/ckip-transformers/jieba/textrank/rake/2021/02/16/Adding-a-custom-tokenizer-to-spaCy-and-extracting-keywords.html#Tokenize-texts-with-ckip-transformers)
 
 #### 2022-05-12  
 * Object     
