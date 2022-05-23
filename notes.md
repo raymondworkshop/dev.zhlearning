@@ -1,9 +1,22 @@
 
 #### notes  
 
+#### 2022-05-19    
+* handle traditional Chinese texts  
+    - TOCHECK  
+        + Integration of CKIP Transformers with spaCy and the TextRank algorithm for traditional Chinese  
+
+    - Chinese Grammar Intelligence (大雅語文智能)
+
+
+
+* write the proposal  
+
+
+
 #### 2022-05-17  
 * Think big  
-
+    - grammar for zh  
 
 * reference 
     - [Practices of the Python Pro](https://www.manning.com/books/practices-of-the-python-pro)  
