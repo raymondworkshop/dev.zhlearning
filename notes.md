@@ -3,9 +3,9 @@
 
 #### 2022-05-23  
 * experiments  
-    -  
+    -  get the module zh_core_web_sm 
 
-    
+
 
 #### 2022-05-19    
 * handle traditional Chinese texts  
