@@ -1,6 +1,13 @@
 
 #### notes  
 
+#### 2022-05-25
+* corpus  
+    - Appendix 5 + Appendix 6 - 10  
+
+* Chinese Grammar Intelligence  
+
+
 #### 2022-05-23  
 * experiments  
 
