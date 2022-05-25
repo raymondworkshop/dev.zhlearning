@@ -3,9 +3,10 @@
 
 #### 2022-05-25
 * corpus  
-    - Appendix 5 + Appendix 6 - 10  
+    - 10 from Appendix 5 + Appendix 6  
 
-* Chinese Grammar Intelligence  
+* proposal  
+    - Chinese Grammar Intelligence  
 
 
 #### 2022-05-23  
