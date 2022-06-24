@@ -1,6 +1,38 @@
 
 #### notes  
 
+#### 2022-06-24  
+* the brief idea on "Language Modeling via Stochastic Processes"  
+    - issue  
+        + introduce a language model to improve the local and global incoherent text generation issues
+            - capture how documents evolve from begging to end  
+            - in goal-roented tasks such as story, dialog or recipe generation  
+    
+    - steps  
+        + encode: learn a representation    
+            - assume that meandering text generated without a goal can be represented as Brownian motion in latent space 
+            
+            - follow a random process of interest via contrastive learning  
+                + map the dynamics of how text changes in a doc to the dynamics of a random process of interest  -> global coherent in a doc
+
+                + contrastive objective can learn approx local transition of Stochastic Processes  -> local coherent text  
+                
+                + learn higher-level features about the "similar" data via contrastive loss  
+            
+        
+        + decode: use the learned latent space to generate text that retains local coherence and improve global coherence  
+            - generate a doc plan via a stochastic process  
+            - then generate text that is consistent with the latent plan    
+                
+
+#### 2022-05-32  
+* draft the proposal  
+
+#### 2022-05-30  
+* write several more sentences for each question  
+
+* For those questions without the outline, you will need to think about an idea for the content  
+
 #### 2022-05-25
 * corpus  
     - 10 from Appendix 5 + Appendix 6  
