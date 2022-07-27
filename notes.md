@@ -18,6 +18,14 @@
 
             > python3 scripts/train_encoder.py --config-name=brownian_bridge wandb_settings.exp_dir=wikisection_tc32 data_params.name=wikisection model_params.latent_dim=32  
 
+    - issues  
+        + version
+        + wandb  
+        + server home  
+        + gpu  
+        + tcsh 
+        
+
 #### 2022-06-24  
 * the brief idea on "Language Modeling via Stochastic Processes"  
     - issue  
