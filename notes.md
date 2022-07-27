@@ -1,6 +1,23 @@
 
 #### notes  
 
+#### 2022-07-26
+* workstation  
+    - ssh wlzhao@seis01.se.cuhk.edu.hk / Aiding2022  
+        + 3 11G GPU - debug + /misc/projdata17/infofil/wlzhao/data ssh wlzhao@sepc429.se.cuhk.edu.hk  
+        + 6 24G GPU - submit tasks + /misc/projdata11/info_fil/wlzhao ssh wlzhao@137.189.56.6 ssh wlzhao@137.189.59.36  
+
+    - conda  
+        + env:  /misc/projdata17/infofil/wlzhao/anaconda3  
+            - /Users/zhaowenlong/miniconda3/envs/lm_via_sp_env  
+        
+        + command  
+            > tcsh  
+            > conda activate lm_via_sp_env  
+            > setenv HOME /misc/projdata17/infofil/wlzhao  
+
+            > python3 scripts/train_encoder.py --config-name=brownian_bridge wandb_settings.exp_dir=wikisection_tc32 data_params.name=wikisection model_params.latent_dim=32  
+
 #### 2022-06-24  
 * the brief idea on "Language Modeling via Stochastic Processes"  
     - issue  
