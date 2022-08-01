@@ -1,6 +1,31 @@
 
 #### notes  
 
+#### 2022-08-01
+* running log:
+    > 
+wandb: Waiting for W&B process to finish, PID 90517
+wandb: Program failed with code 1.
+wandb: Find user logs for this run at: /misc/projdata17/infofil/wlzhao/tc/language_modeling_via_stochastic_processes/language_modeling_via_stochastic_processes/outputs/2022-07-27/13-29-29/wandb/offline-run-20220727_132929-3vhvxmsi/logs/debug.log
+wandb: Find internal logs for this run at: /misc/projdata17/infofil/wlzhao/tc/language_modeling_via_stochastic_processes/language_modeling_via_stochastic_processes/outputs/2022-07-27/13-29-29/wandb/offline-run-20220727_132929-3vhvxmsi/logs/debug-internal.log
+wandb: Run summary:
+wandb:   train_loss 3.52896
+wandb:        epoch 99
+wandb:     _runtime 91589
+wandb:   _timestamp 1658991359
+wandb:        _step 258200
+wandb:    test_loss 3.54346
+wandb: Run history:
+wandb:   train_loss ▂▂▂▃▁▁▂▃▆▂▂▂▂▂▃▁▅▃▂▂▆▃▃▁▅█▁▃▁▂▂▃▆▃▆▁▇▄▃▂
+wandb:        epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇████
+wandb:     _runtime ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:   _timestamp ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:        _step ▁▁▁▂▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:    test_loss ▁
+wandb:
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync /misc/projdata17/infofil/wlzhao/tc/language_modeling_via_stochastic_processes/language_modeling_via_stochastic_processes/outputs/2022-07-27/13-29-29/wandb/offline-run-20220727_132929-3vhvxmsi
+
 #### 2022-07-26
 * workstation  
     - ssh wlzhao@seis01.se.cuhk.edu.hk / Aiding2022  
