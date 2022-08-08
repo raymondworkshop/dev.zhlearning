@@ -1,6 +1,10 @@
 
 #### notes  
 
+#### 2022-08-03  
+* check wandb config  
+    - update identity = "cuhk-tc"  
+
 #### 2022-08-01
 * running log:
     > 
