@@ -7,7 +7,7 @@
     + anaconda installation    
         >  cd /misc/projdata17/infofil/wlzhao/anaconda3  
             - /Users/zhaowenlong/miniconda3/envs/lm_via_sp_env  
-            - Only python3.8  
+            - Only python3.8 works  
 
     + tcsh env on the school server      
         > conda activate lm_via_sp_env  
@@ -18,13 +18,13 @@
         > pip install -e .  
 
 2. Register a [wandb](https://wandb.ai/) account
-    + BUGS
+    + wandb config issues  
 
 3. Change the filepaths to correspond to your own in [language_modeling_via_stochastic_processes/src/constants.py](language_modeling_via_stochastic_processes/src/constants.py).
 
 
 
-### Wikisection dataset from [this prior work](https://github.com/sebastianarnold/WikiSection) 
+### Get Wikisection dataset from [this prior work](https://github.com/sebastianarnold/WikiSection) 
 
 ### Encoder  
 ```
