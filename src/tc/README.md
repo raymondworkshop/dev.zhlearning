@@ -6,10 +6,11 @@
 1. Create a new virtual environment  
     + anaconda installation    
         >  cd /misc/projdata17/infofil/wlzhao/anaconda3  
-            - /Users/zhaowenlong/miniconda3/envs/lm_via_sp_env  
-            - Only python3.8 works  
+        - /Users/zhaowenlong/miniconda3/envs/lm_via_sp_env  
+        - Only python3.8 works  
 
     + tcsh env on the school server      
+        > tcsh  
         > conda activate lm_via_sp_env  
         > setenv HOME /misc/projdata17/infofil/wlzhao  
 
@@ -19,8 +20,9 @@
 
 2. Register a [wandb](https://wandb.ai/) account
     + wandb config issues  
+        - update identity = "cuhk-tc"  
 
-3. Change the filepaths to correspond to your own in [language_modeling_via_stochastic_processes/src/constants.py](language_modeling_via_stochastic_processes/src/constants.py).
+3. Change the filepaths in [language_modeling_via_stochastic_processes/src/constants.py](language_modeling_via_stochastic_processes/src/constants.py).
 
 
 
