@@ -4,19 +4,18 @@
 ### setup ENV
 
 1. Create a new virtual environment  
-    + anaconda env  
-        >  /misc/projdata17/infofil/wlzhao/anaconda3  
+    + anaconda installation    
+        >  cd /misc/projdata17/infofil/wlzhao/anaconda3  
             - /Users/zhaowenlong/miniconda3/envs/lm_via_sp_env  
-
-            - python3.8  
+            - Only python3.8  
 
     + tcsh env on the school server      
         > conda activate lm_via_sp_env  
         > setenv HOME /misc/projdata17/infofil/wlzhao  
 
-        > pip install -e . 
-        > cd language_modeling_via_stochastic_processes/transformers
-        > pip install -e . 
+        > pip install -e .  
+        > cd language_modeling_via_stochastic_processes/transformers  
+        > pip install -e .  
 
 2. Register a [wandb](https://wandb.ai/) account
     + BUGS
