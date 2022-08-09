@@ -6,9 +6,11 @@
 1. Create a new virtual environment  
     + anaconda env  
         >  /misc/projdata17/infofil/wlzhao/anaconda3  
-            - /Users/zhaowenlong/miniconda3/envs/lm_via_sp_env
+            - /Users/zhaowenlong/miniconda3/envs/lm_via_sp_env  
 
-    + tcsh env    
+            - python3.8  
+
+    + tcsh env on the school server      
         > conda activate lm_via_sp_env  
         > setenv HOME /misc/projdata17/infofil/wlzhao  
 
