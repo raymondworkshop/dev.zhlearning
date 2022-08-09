@@ -1,0 +1,26 @@
+2022-07-26 17:15:22,499 INFO    MainThread:7140 [wandb_setup.py:_flush():69] setting env: {'mode': 'dryrun', 'console': 'wrap'}
+2022-07-26 17:15:22,500 WARNING MainThread:7140 [wandb_setup.py:_flush():69] could not find program at scripts/train_encoder.py
+2022-07-26 17:15:22,500 INFO    MainThread:7140 [wandb_init.py:_log_setup():336] Logging user logs to /Users/zhaowenlong/workspace/proj/dev.goal2022/src/tc/language_modeling_via_stochastic_processes/outputs/2022-07-26/17-15-22/wandb/offline-run-20220726_171522-1wsvbfh3/logs/debug.log
+2022-07-26 17:15:22,500 INFO    MainThread:7140 [wandb_init.py:_log_setup():337] Logging internal logs to /Users/zhaowenlong/workspace/proj/dev.goal2022/src/tc/language_modeling_via_stochastic_processes/outputs/2022-07-26/17-15-22/wandb/offline-run-20220726_171522-1wsvbfh3/logs/debug-internal.log
+2022-07-26 17:15:22,501 INFO    MainThread:7140 [wandb_init.py:init():369] calling init triggers
+2022-07-26 17:15:22,501 INFO    MainThread:7140 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'_metadata': ContainerMetadata(ref_type=typing.Any, object_type=None, optional=True, key=None, flags={'struct': True}, flags_root=False, resolver_cache=defaultdict(<class 'dict'>, {'now': {('%Y-%m-%d',): '2022-07-26', ('%H-%M-%S',): '17-15-22'}}), key_type=typing.Any, element_type=typing.Any), '_parent': None, '_flags_cache': {'struct': True}, '_content': {'wandb_settings': {'exp_name': 'encoder_training', 'exp_dir': 'wikisection_tc32', 'project': 'language_modeling_via_stochastic_processes', 'group': 'encoder', 'dryrun': True}, 'data_params': {'name': 'wikisection', 'include_section_ids_in_tokenizer': True, 'data_seed': 1337, 'k': 5}, 'model_params': {'encoder': 'cl', 'latent_dim': 32, 'n_layers': 2, 'eps': 1e-06, 'hidden_size': 128, 'language_encoder': 'GPT2', 'filepath': None, 'pretrained_name': None}, 'loss_params': {'loss': 'brownian_bridge', 'name': 'simclr'}, 'optim_params': {'batch_size': 32, 'decay_steps': 50000.0, 'decay_factor': 0.1, 'learning_rate': 0.0001, 'moving_average_decay': 0.9999, 'momentum': 0.9}, 'experiment_params': {'validate': True, 'checkpoint_epochs': 100, 'continue_from_checkpoint': True, 'num_epochs': 100, 'cuda': True, 'seed': 1337, 'data_loader_workers': 8}}}
+2022-07-26 17:15:22,501 INFO    MainThread:7140 [wandb_init.py:init():418] starting backend
+2022-07-26 17:15:22,501 INFO    MainThread:7140 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-07-26 17:15:22,516 INFO    MainThread:7140 [backend.py:ensure_launched():123] starting backend process...
+2022-07-26 17:15:22,529 INFO    MainThread:7140 [backend.py:ensure_launched():127] started backend process with pid: 7571
+2022-07-26 17:15:22,533 INFO    MainThread:7140 [wandb_init.py:init():423] backend started and connected
+2022-07-26 17:15:22,544 INFO    MainThread:7140 [wandb_init.py:init():463] updated telemetry
+2022-07-26 17:15:22,547 INFO    MainThread:7140 [wandb_init.py:init():520] starting run threads in backend
+2022-07-26 17:15:27,551 INFO    MainThread:7140 [wandb_run.py:_console_start():1507] atexit reg
+2022-07-26 17:15:27,552 INFO    MainThread:7140 [wandb_run.py:_redirect():1370] redirect: SettingsConsole.WRAP
+2022-07-26 17:15:27,554 INFO    MainThread:7140 [wandb_run.py:_redirect():1405] Wrapping output streams.
+2022-07-26 17:15:27,554 INFO    MainThread:7140 [wandb_run.py:_redirect():1421] Redirects installed.
+2022-07-26 17:15:27,554 INFO    MainThread:7140 [wandb_init.py:init():544] run started, returning control to user process
+2022-07-26 17:15:44,608 INFO    MainThread:7140 [wandb_run.py:_atexit_cleanup():1477] got exitcode: 1
+2022-07-26 17:15:44,612 INFO    MainThread:7140 [wandb_run.py:_restore():1449] restore
+2022-07-26 17:15:44,627 INFO    MainThread:7140 [wandb_run.py:_wait_for_finish():1599] got exit ret: 
+2022-07-26 17:15:46,633 INFO    MainThread:7140 [wandb_run.py:_wait_for_finish():1599] got exit ret: done: true
+exit_result {
+}
+

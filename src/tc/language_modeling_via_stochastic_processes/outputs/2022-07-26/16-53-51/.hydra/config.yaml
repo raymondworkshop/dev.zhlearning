@@ -1,0 +1,38 @@
+wandb_settings:
+  exp_name: encoder_training
+  exp_dir: wikisection_tc32
+  project: language_modeling_via_stochastic_processes
+  group: encoder
+  dryrun: true
+data_params:
+  name: wikisection
+  include_section_ids_in_tokenizer: true
+  data_seed: 1337
+  k: 5
+model_params:
+  encoder: cl
+  latent_dim: 32
+  n_layers: 2
+  eps: 1.0e-06
+  hidden_size: 128
+  language_encoder: GPT2
+  filepath: null
+  pretrained_name: null
+loss_params:
+  loss: brownian_bridge
+  name: simclr
+optim_params:
+  batch_size: 32
+  decay_steps: 50000.0
+  decay_factor: 0.1
+  learning_rate: 0.0001
+  moving_average_decay: 0.9999
+  momentum: 0.9
+experiment_params:
+  validate: true
+  checkpoint_epochs: 100
+  continue_from_checkpoint: true
+  num_epochs: 100
+  cuda: true
+  seed: 1337
+  data_loader_workers: 8

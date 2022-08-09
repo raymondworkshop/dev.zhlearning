@@ -1,0 +1,3 @@
+- wandb_settings.exp_dir=wikisection_tc32
+- data_params.name=wikisection
+- model_params.latent_dim=32

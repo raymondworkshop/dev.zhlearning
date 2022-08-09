@@ -1,0 +1,20 @@
+CKPT AT encoder_training/checkpoints
+[2022-07-26 17:00:11,826][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /var/folders/4t/gp3gk91n2js745bgthv94s_c0000gn/T/tmp4x7t8ug3
+[2022-07-26 17:00:11,828][torch.distributed.nn.jit.instantiator][INFO] - Writing /var/folders/4t/gp3gk91n2js745bgthv94s_c0000gn/T/tmp4x7t8ug3/_remote_module_non_scriptable.py
+Error executing job with overrides: ['wandb_settings.exp_dir=wikisection_tc32', 'data_params.name=wikisection', 'model_params.latent_dim=32']
+Traceback (most recent call last):
+  File "scripts/train_encoder.py", line 54, in run
+    system = SystemClass(config)
+  File "/Users/zhaowenlong/workspace/proj/dev.goal2022/src/tc/language_modeling_via_stochastic_processes/src/systems/brownian_bridge_system.py", line 51, in __init__
+    self._set_dataset()
+  File "/Users/zhaowenlong/workspace/proj/dev.goal2022/src/tc/language_modeling_via_stochastic_processes/src/systems/brownian_bridge_system.py", line 80, in _set_dataset
+    self.train_dataset = dataset(
+  File "/Users/zhaowenlong/workspace/proj/dev.goal2022/src/tc/language_modeling_via_stochastic_processes/src/datasets/wikisection.py", line 26, in __init__
+    super().__init__(
+  File "/Users/zhaowenlong/workspace/proj/dev.goal2022/src/tc/language_modeling_via_stochastic_processes/src/datasets/encoder.py", line 25, in __init__
+    self._load_data()
+  File "/Users/zhaowenlong/workspace/proj/dev.goal2022/src/tc/language_modeling_via_stochastic_processes/src/datasets/wikisection.py", line 35, in _load_data
+    with open(self.filepath, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/zhaowenlong/workspace/proj/dev.goal2022/src/tc/language_modeling_via_stochastic_processes/data/wikisection/HGD_en_city_train.json'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

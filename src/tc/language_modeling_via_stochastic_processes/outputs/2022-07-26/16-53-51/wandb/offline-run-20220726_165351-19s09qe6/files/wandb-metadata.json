@@ -1,0 +1,26 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-07-26T08:54:03.190629",
+    "startedAt": "2022-07-26T08:53:51.455009",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--config-name=brownian_bridge",
+        "wandb_settings.exp_dir=wikisection_tc32",
+        "data_params.name=wikisection",
+        "model_params.latent_dim=32"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/muyun/slearning.git",
+        "commit": "942a12e8c5f8de4d279405e30cb2326a0b4d1655"
+    },
+    "email": "wenlzhao@gmail.com",
+    "root": "/Users/zhaowenlong/workspace/proj/dev.goal2022",
+    "host": "zhaowenlongs-MacBook.local",
+    "username": "zhaowenlong",
+    "executable": "/Users/zhaowenlong/miniconda3/envs/lm_via_sp_env/bin/python3"
+}

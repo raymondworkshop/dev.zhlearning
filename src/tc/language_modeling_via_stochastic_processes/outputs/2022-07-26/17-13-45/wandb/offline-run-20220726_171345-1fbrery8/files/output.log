@@ -1,0 +1,29 @@
+CKPT AT encoder_training/checkpoints
+[2022-07-26 17:13:50,422][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /var/folders/4t/gp3gk91n2js745bgthv94s_c0000gn/T/tmpmluw363y
+[2022-07-26 17:13:50,424][torch.distributed.nn.jit.instantiator][INFO] - Writing /var/folders/4t/gp3gk91n2js745bgthv94s_c0000gn/T/tmpmluw363y/_remote_module_non_scriptable.py
+Examples: {'sentence': '[ ABSTRACT ] Ada is a city in and the county seat of Pontotoc County, Oklahoma, United States . ', 'sentence_id': 0, 'section': 'abstract', 'section_id': 0, 'doc_id': 0, 'total_doc_sentences': 40}
+Examples: {'sentence': 'Ada incorporated as a city in 1901 and grew rapidly with the arrival of the St . ', 'sentence_id': 10, 'section': 'History', 'section_id': 1, 'doc_id': 0, 'total_doc_sentences': 40}
+Examples: {'sentence': '[ ABSTRACT ] Ada is a city in and the county seat of Pontotoc County, Oklahoma, United States . ', 'sentence_id': 0, 'section': 'abstract', 'section_id': 0, 'doc_id': 0, 'total_doc_sentences': 40}
+Examples: {'sentence': 'Ada incorporated as a city in 1901 and grew rapidly with the arrival of the St . ', 'sentence_id': 10, 'section': 'History', 'section_id': 1, 'doc_id': 0, 'total_doc_sentences': 40}
+Examples: {'sentence': '[ ABSTRACT ] Anaktuvuk Pass ( , ] or , ] ) is a city in North Slope Borough, Alaska, United States . ', 'sentence_id': 0, 'section': 'abstract', 'section_id': 0, 'doc_id': 0, 'total_doc_sentences': 45}
+Examples: {'sentence': 'This settlement attracted Nunamiut from many other locations, and villagers today lead a somewhat more sedentary lifestyle than in earlier nomadic times . ', 'sentence_id': 10, 'section': 'History', 'section_id': 1, 'doc_id': 0, 'total_doc_sentences': 45}
+Examples: {'sentence': '[ ABSTRACT ] Anaktuvuk Pass ( , ] or , ] ) is a city in North Slope Borough, Alaska, United States . ', 'sentence_id': 0, 'section': 'abstract', 'section_id': 0, 'doc_id': 0, 'total_doc_sentences': 45}
+Examples: {'sentence': 'This settlement attracted Nunamiut from many other locations, and villagers today lead a somewhat more sedentary lifestyle than in earlier nomadic times . ', 'sentence_id': 10, 'section': 'History', 'section_id': 1, 'doc_id': 0, 'total_doc_sentences': 45}
+Error executing job with overrides: ['wandb_settings.exp_dir=wikisection_tc32', 'data_params.name=wikisection', 'model_params.latent_dim=32']
+Traceback (most recent call last):
+  File "scripts/train_encoder.py", line 56, in run
+    trainer = pl.Trainer(
+  File "/Users/zhaowenlong/miniconda3/envs/lm_via_sp_env/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/env_vars_connector.py", line 38, in insert_env_defaults
+    return fn(self, **kwargs)
+  File "/Users/zhaowenlong/miniconda3/envs/lm_via_sp_env/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 426, in __init__
+    gpu_ids, tpu_cores = self._parse_devices(gpus, auto_select_gpus, tpu_cores)
+  File "/Users/zhaowenlong/miniconda3/envs/lm_via_sp_env/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py", line 1543, in _parse_devices
+    gpu_ids = device_parser.parse_gpu_ids(gpus)
+  File "/Users/zhaowenlong/miniconda3/envs/lm_via_sp_env/lib/python3.8/site-packages/pytorch_lightning/utilities/device_parser.py", line 89, in parse_gpu_ids
+    return _sanitize_gpu_ids(gpus)
+  File "/Users/zhaowenlong/miniconda3/envs/lm_via_sp_env/lib/python3.8/site-packages/pytorch_lightning/utilities/device_parser.py", line 151, in _sanitize_gpu_ids
+    raise MisconfigurationException(
+pytorch_lightning.utilities.exceptions.MisconfigurationException: You requested GPUs: [0]
+ But your machine only has: []
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
