@@ -1,37 +1,37 @@
 
-## A experiment on Language modeling via stochastic processes
-[[Paper]](https://arxiv.org/pdf/2203.11370.pdf) 
+## A experiment on [Language modeling via stochastic processes](https://arxiv.org/pdf/2203.11370.pdf) 
 
-## setup ENV
+### setup ENV
 
-1. Create a new virtual environment `conda create -n lm_via_sp python=3.8`
-    + env:  /misc/projdata17/infofil/wlzhao/anaconda3  
+1. Create a new virtual environment  
+    + anaconda env  
+        >  /misc/projdata17/infofil/wlzhao/anaconda3  
             - /Users/zhaowenlong/miniconda3/envs/lm_via_sp_env
 
-    + > tcsh  
-            > conda activate lm_via_sp_env  
-            > setenv HOME /misc/projdata17/infofil/wlzhao  
+    + tcsh env    
+        > conda activate lm_via_sp_env  
+        > setenv HOME /misc/projdata17/infofil/wlzhao  
 
-2. In this repository, run: 
-```
-pip install -e . # Installing the right libraries for the virtual environment
-cd language_modeling_via_stochastic_processes/transformers
-pip install -e . # Installing transformers locally; I modified their GPT2 module to take in our learned embeddings for decoding.
-```
-3. Make sure you have a [wandb](https://wandb.ai/) account!
-4. Change the filepaths to correspond to your own in [language_modeling_via_stochastic_processes/src/constants.py](language_modeling_via_stochastic_processes/src/constants.py).
+        > pip install -e . 
+        > cd language_modeling_via_stochastic_processes/transformers
+        > pip install -e . 
+
+2. Register a [wandb](https://wandb.ai/) account
+    + BUGS
+
+3. Change the filepaths to correspond to your own in [language_modeling_via_stochastic_processes/src/constants.py](language_modeling_via_stochastic_processes/src/constants.py).
 
 
 
-## Wikisection dataset 
+### Wikisection dataset 
 It came from [this prior work](https://github.com/sebastianarnold/WikiSection) 
 
-## Encoder  
+### Encoder  
 ```
 python3 scripts/train_encoder.py --config-name=brownian_bridge wandb_settings.exp_dir=wikisection_tc32 data_params.name=wikisection model_params.latent_dim=32
 ```
 
-## Decoder
+### Decoder
 
 For training the decoder, you'll need to be in directory `language_modeling_via_stochastic_processes/transformers/examples/pytorch/language-modeling/`.
 
@@ -44,7 +44,7 @@ python run_time_clm.py --model_name_or_path gpt2 --dataset_name wikisection --do
 
 ```
 
-## Generation
+### Generation
 
 An example command for generating long Wikisection texts with the Brownian bridge encoder: 
 
