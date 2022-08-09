@@ -20,7 +20,8 @@
 
 2. Register a [wandb](https://wandb.ai/) account
     + wandb config issues  
-        - update identity = "cuhk-tc" in [language_modeling_via_stochastic_processes/scripts/train_encoder.py](language_modeling_via_stochastic_processes/scripts/train_encoder.py)
+        - update identity = "cuhk-tc" in [language_modeling_via_stochastic_processes/scripts/train_encoder.py](language_modeling_via_stochastic_processes/scripts/train_encoder.py)  
+        - create project="language_modeling_via_stochastic_processes" on wandb website   
 
 3. Change the filepaths in [language_modeling_via_stochastic_processes/src/constants.py](language_modeling_via_stochastic_processes/src/constants.py).
 
