@@ -23,8 +23,7 @@
 
 
 
-### Wikisection dataset 
-It came from [this prior work](https://github.com/sebastianarnold/WikiSection) 
+### Wikisection dataset from [this prior work](https://github.com/sebastianarnold/WikiSection) 
 
 ### Encoder  
 ```
