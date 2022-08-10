@@ -1,6 +1,7 @@
 wandb_settings:
   exp_name: encoder_training
-  exp_dir: "/juice/scr/rewang/nonstationarity/code/experiments"
+  #exp_dir: "/juice/scr/rewang/nonstationarity/code/experiments"
+  exp_dir: ""
   project: language_modeling_via_stochastic_processes
   group: encoder
   dryrun: True
