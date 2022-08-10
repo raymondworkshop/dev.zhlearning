@@ -18,14 +18,16 @@
         > cd language_modeling_via_stochastic_processes/transformers  
         > pip install -e .  
 
-2. Register a [wandb](https://wandb.ai/) account
+2. Register a [wandb](https://wandb.ai/) account  
+    + W&B is integrated in  ML Code  
     + wandb config issues  
         - update identity = "cuhk-tc" in [language_modeling_via_stochastic_processes/scripts/train_encoder.py](language_modeling_via_stochastic_processes/scripts/train_encoder.py)  
         
-        - create project="language_modeling_via_stochastic_processes" on wandb website   
+        - create project="language_modeling_via_stochastic_processes" on wandb website    
         
-        - update exp_dir = "/misc/projdata17/infofil/wlzhao/tc/language_modeling_via_stochastic_processes/language_modeling_via_stochastic_processes/experiments/wikisection_tc32" in config files 
-            + pytorch Lightning will save models of each epoch in each dataset into this dir  
+        - update exp_dir = "/misc/projdata17/infofil/wlzhao/tc/language_modeling_via_stochastic_processes/language_modeling_via_stochastic_processes/experiments/wikisection_tc32" in config files  
+            + pytorch Lightning issues  
+            + this will save models of each epoch in each dataset into this dir  
 
      
 3. Change the filepaths in [language_modeling_via_stochastic_processes/src/constants.py](language_modeling_via_stochastic_processes/src/constants.py).
