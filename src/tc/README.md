@@ -19,11 +19,11 @@
         > pip install -e .  
 
 2. Register a [wandb](https://wandb.ai/) account  
-    + wandb is integrated in  ML Code  
+    + wandb is integrated in  ML Code to get live metrics, terminal logs, and system stats
     + wandb config issues  
-        - update identity = "cuhk-tc" in [language_modeling_via_stochastic_processes/scripts/train_encoder.py](language_modeling_via_stochastic_processes/scripts/train_encoder.py)  
+        - create project="language_modeling_via_stochastic_processes" on wandb website  
         
-        - create project="language_modeling_via_stochastic_processes" on wandb website    
+        - update identity = "cuhk-tc" in [language_modeling_via_stochastic_processes/scripts/train_encoder.py](language_modeling_via_stochastic_processes/scripts/train_encoder.py)  
         
         - update exp_dir = "/misc/projdata17/infofil/wlzhao/tc/language_modeling_via_stochastic_processes/language_modeling_via_stochastic_processes/experiments/wikisection_tc32" in config files  
             + pytorch Lightning issues  
