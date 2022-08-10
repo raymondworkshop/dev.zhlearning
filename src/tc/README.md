@@ -21,14 +21,13 @@
 2. Register a [wandb](https://wandb.ai/) account
     + wandb config issues  
         - update identity = "cuhk-tc" in [language_modeling_via_stochastic_processes/scripts/train_encoder.py](language_modeling_via_stochastic_processes/scripts/train_encoder.py)  
+        
         - create project="language_modeling_via_stochastic_processes" on wandb website   
+        
         - update exp_dir = "/misc/projdata17/infofil/wlzhao/tc/language_modeling_via_stochastic_processes/language_modeling_via_stochastic_processes/experiments/wikisection_tc32" in config files 
             + pytorch Lightning will save models of each epoch in each dataset into this dir  
 
      
-    > cd ./tc/language_modeling_via_stochastic_processes
-    > python3 scripts/train_encoder.py 
-
 3. Change the filepaths in [language_modeling_via_stochastic_processes/src/constants.py](language_modeling_via_stochastic_processes/src/constants.py).
 
 
@@ -38,7 +37,9 @@
 ### Encoder  
 * command  
     > cd ./tc/language_modeling_via_stochastic_processes
-    > python3 scripts/train_encoder.py --config-name=brownian_bridge wandb_settings.exp_dir=wikisection_tc32 data_params.name=wikisection model_params.latent_dim=32
+    > <del>python3 scripts/train_encoder.py --config-name=brownian_bridge wandb_settings.exp_dir=wikisection_tc32 data_params.name=wikisection model_params.latent_dim=32</del>  
+    > python3 scripts/train_encoder.py  
+
 
 
 * log  
