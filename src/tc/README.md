@@ -19,7 +19,7 @@
         > pip install -e .  
 
 2. Register a [wandb](https://wandb.ai/) account  
-    + W&B is integrated in  ML Code  
+    + wandb is integrated in  ML Code  
     + wandb config issues  
         - update identity = "cuhk-tc" in [language_modeling_via_stochastic_processes/scripts/train_encoder.py](language_modeling_via_stochastic_processes/scripts/train_encoder.py)  
         
@@ -34,7 +34,7 @@
 
 
 
-### Get Wikisection dataset from [this prior work](https://github.com/sebastianarnold/WikiSection) 
+### Get Wikisection dataset from [this work](https://github.com/sebastianarnold/WikiSection) 
 
 ### Encoder  
 * command  
@@ -43,8 +43,7 @@
     > python3 scripts/train_encoder.py  
 
 
-
-* log  
+* the recent log  
     > 
 wandb: Waiting for W&B process to finish, PID 90517  
 wandb: Program failed with code 1.  
@@ -82,7 +81,7 @@ python run_time_clm.py --model_name_or_path gpt2 --dataset_name wikisection --do
 
 ```
 
-### Generation
+### Generation  
 
 An example command for generating long Wikisection texts with the Brownian bridge encoder: 
 
