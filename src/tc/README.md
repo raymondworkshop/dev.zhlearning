@@ -1,12 +1,10 @@
 
 ## Experiments on [Language modeling via stochastic processes](https://arxiv.org/pdf/2203.11370.pdf) 
 
-### setup ENV
-
+### setup ENV  
 1. Create a new virtual environment  
     + anaconda issues      
         >  cd /misc/projdata17/infofil/wlzhao/anaconda3  
-        - /Users/zhaowenlong/miniconda3/envs/lm_via_sp_env  
         - Only python3.8 works  
 
     + tcsh env issues on the school server      
@@ -22,7 +20,7 @@
     + wandb is integrated in  ML Code to get live metrics, terminal logs, and system stats
     + wandb config issues  
         - create project="language_modeling_via_stochastic_processes" on wandb website  
-        
+
         - update identity = "cuhk-tc" in [language_modeling_via_stochastic_processes/scripts/train_encoder.py](language_modeling_via_stochastic_processes/scripts/train_encoder.py)  
         
         - update exp_dir = "/misc/projdata17/infofil/wlzhao/tc/language_modeling_via_stochastic_processes/language_modeling_via_stochastic_processes/experiments/wikisection_tc32" in config files  

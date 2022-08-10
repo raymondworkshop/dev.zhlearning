@@ -53,7 +53,7 @@ wandb: wandb sync /misc/projdata17/infofil/wlzhao/tc/language_modeling_via_stoch
             > python3 scripts/train_encoder.py --config-name=brownian_bridge wandb_settings.exp_dir=wikisection_tc32 data_params.name=wikisection model_params.latent_dim=32  
 
     - issues  
-        + version
+        + version  
         + wandb  
         + server home  
         + gpu  
