@@ -36,7 +36,7 @@
 
 ### Encoder  
 * command  
-    > cd ./tc/language_modeling_via_stochastic_processes
+    > cd ./tc/language_modeling_via_stochastic_processes  
     > <del>python3 scripts/train_encoder.py --config-name=brownian_bridge wandb_settings.exp_dir=wikisection_tc32 data_params.name=wikisection model_params.latent_dim=32</del>  
     > python3 scripts/train_encoder.py  
 
