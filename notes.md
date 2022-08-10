@@ -1,6 +1,11 @@
 
 #### notes  
 
+#### 2022-08-10  
+* wandb issues  
+    - update exp_dir = "/misc/projdata17/infofil/wlzhao/tc/language_modeling_via_stochastic_processes/language_modeling_via_stochastic_processes/experiments" in config files 
+        + Lightning will save models of each epoch into this dir  
+
 #### 2022-08-03  
 * check wandb config  
     - update identity = "cuhk-tc"  
