@@ -1,6 +1,27 @@
 
 #### notes  
 
+#### 2022-08-15
+* on GPU 
+    - ssh wlzhao@sepc429.se.cuhk.edu.hk  
+        > /misc/projdata17/infofil/wlzhao  
+
+    - try to use another server  
+        + add bash script to submit gpu task  
+        > #!/bin/bash  
+         #SBATCH --nodes=1  
+         #SBATCH --gres=gpu:1  
+         #SBATCH --ntasks=1  
+         #SBATCH --cpus-per-task=1  
+         #SBATCH --mem=10000M  
+         #SBATCH --partition=infofil01  
+
+    - gpu commands  
+        > sbatch ./run.sh cat slurm-1115.out  
+        > squeue <- check server status  
+        > nvidia-smi <- check gpu status  
+        > scancel <- cancel job id  
+
 #### 2022-08-10  
 * wandb issues  
     - update exp_dir = "/misc/projdata17/infofil/wlzhao/tc/language_modeling_via_stochastic_processes/language_modeling_via_stochastic_processes/experiments" in config files 
