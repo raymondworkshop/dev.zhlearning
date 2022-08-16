@@ -2,9 +2,12 @@
 #### notes  
 
 #### 2022-08-16  
-* run on GPU  
-    - the issue:
-        > RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!  
+* issues  
+    - the wandb process dead issues 
+        + upgrade wandb into 0.12.0 
+
+    - RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!  
+        + try to run on GPU not CPU  
 
 #### 2022-08-15
 * on GPU 
