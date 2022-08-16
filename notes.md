@@ -1,6 +1,11 @@
 
 #### notes  
 
+#### 2022-08-16  
+* run on GPU  
+    - the issue:
+        > RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!  
+
 #### 2022-08-15
 * on GPU 
     - ssh wlzhao@sepc429.se.cuhk.edu.hk  
