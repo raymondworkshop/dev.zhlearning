@@ -1,6 +1,17 @@
 
 #### notes  
 
+#### 2022-08-17  
+* GPU issues - cannot work on school server  
+    - Found GPU1 Quadro K600 which is of cuda capability 3.0. 
+    pyTorch no longer supports this GPU because it is too old.
+    The minimum cuda capability supported by this library is 3.7.  
+        + only <=torch 1.3.1 works  
+
+
+    - ModuleNotFoundError: No module named 'torch.cuda.amp'  
+        + only >=torch 1.7.x works  
+
 #### 2022-08-16  
 * issues  
     - the wandb process dead issues 
