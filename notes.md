@@ -3,9 +3,13 @@
 
 #### 2022-08-17  
 * GPU issues - cannot work on school server  
-    - Found GPU1 Quadro K600 which is of cuda capability 3.0. 
-    pyTorch no longer supports this GPU because it is too old.
+    - Found GPU0 Tesla K20c which is of cuda capability 3.5.
+    PyTorch no longer supports this GPU because it is too old.
     The minimum cuda capability supported by this library is 3.7.  
+
+    - Found GPU1 Quadro K600 which is of cuda capability 3.0.
+    PyTorch no longer supports this GPU because it is too old.
+    The minimum cuda capability supported by this library is 3.7.
         + only <=torch 1.3.1 works  
 
 
