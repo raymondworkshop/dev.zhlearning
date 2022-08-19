@@ -16,6 +16,8 @@
     - ModuleNotFoundError: No module named 'torch.cuda.amp'  
         + only >=torch 1.7.x works  
 
+    - update device="cpu" in brownian_bridge.py  
+
 #### 2022-08-16  
 * issues  
     - the wandb process dead issues 
@@ -49,6 +51,8 @@
 * wandb issues  
     - update exp_dir = "/misc/projdata17/infofil/wlzhao/tc/language_modeling_via_stochastic_processes/language_modeling_via_stochastic_processes/experiments" in config files 
         + Lightning will save models of each epoch into this dir  
+
+    - pip install wandb==0.12.0  
 
 #### 2022-08-03  
 * check wandb config  
